@@ -1,0 +1,42 @@
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\TGSUser070\Desktop\AttendenceManagement\Attendernce_Management\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\prati\Downloads\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\ref\Domain.dll
