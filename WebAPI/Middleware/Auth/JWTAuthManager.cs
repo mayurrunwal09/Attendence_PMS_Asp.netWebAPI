@@ -25,7 +25,7 @@ namespace WebAPI.Middleware.Auth
         new Claim(ClaimTypes.Name, user.UserName),
         new Claim(ClaimTypes.Role, user.Role),
         new Claim("UserId",user.Id.ToString()),
-        // Add more claims as needed
+       
     };
 
             var token = new JwtSecurityToken(

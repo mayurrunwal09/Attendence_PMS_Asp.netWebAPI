@@ -25,21 +25,7 @@ namespace WebAPI.Controllers
                 return BadRequest("No records found");
             return Ok(res);
         }
-        /*[Route("GetBreak")]
-        [HttpGet]
-        public async Task<IActionResult> GetBreak(int Id)
-        {
-            if (Id != null)
-            {
-                var result = await _customerService.GetById(Id);
-                if (result == null)
-                    return BadRequest("No Records Found, Please Try Again After Adding them...!");
-                return Ok(result);
-            }
-            else
-                return NotFound("Invalid Category Id, Please Entering a Valid One...!");
-
-        }*/
+       
         [Route("InsertBreak")]
         [HttpPost]
         public async Task<IActionResult> InsertBreak(InsertBreak categoryModel)
@@ -56,22 +42,7 @@ namespace WebAPI.Controllers
                 return BadRequest("Invalid Category Information, Please Entering a Valid One...!");
 
         }
-       /* [Route("UpdateBreak")]
-        [HttpPut]
-        public async Task<IActionResult> UpdateBreak(UpdateBreak categoryModel)
-        {
-            if (ModelState.IsValid)
-            {
-                var result = await _customerService.Update(categoryModel);
-                if (result == true)
-                    return Ok(categoryModel);
-                else
-                    return BadRequest("Something Went Wrong, Please Try After Sometime...!");
-            }
-            else
-                return BadRequest("Invalid Category Information, Please Entering a Valid One...!");
-        }
-*/
+   
         [Route("DeleteBreak")]
         [HttpDelete]
         public async Task<IActionResult> DeleteBreak(int Id)

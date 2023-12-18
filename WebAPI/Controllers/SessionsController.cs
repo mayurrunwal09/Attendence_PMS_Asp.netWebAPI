@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("GetAllSessions")]
-       // [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "Admin")]
         public async Task<ActionResult<IEnumerable<Sessions>>> GetAllSessions()
         {
             var sessions = await _context.Sessions
@@ -57,7 +57,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("PostSession")]
-       //  [Authorize(Roles = "Admin")]
+         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<Sessions>> PostSession(EventInputModel model)
         {
             if (!ModelState.IsValid)
