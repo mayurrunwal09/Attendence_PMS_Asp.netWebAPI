@@ -1,4 +1,5 @@
 using Domain.Helpers;
+using Domain.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -8,6 +9,7 @@ using Repositroy_And_Services.Repository;
 using Repositroy_And_Services.Services.CustomService.AttendenceServices;
 using Repositroy_And_Services.Services.CustomService.BreakServices;
 using Repositroy_And_Services.Services.CustomService.ClockOutServices;
+using Repositroy_And_Services.Services.CustomService.EventServices;
 using Repositroy_And_Services.Services.CustomService.FinishBreakService;
 using Repositroy_And_Services.Services.CustomService.LeaveServices;
 using Repositroy_And_Services.Services.CustomService.ReportServices;
@@ -76,7 +78,7 @@ builder.Services.AddSwaggerGen(c =>
 
 builder.Services.AddAuthorization(options =>
 {
-    options.AddPolicy("RequireHRRole", policy => policy.RequireRole("HR"));
+    options.AddPolicy("RequireAdminRole", policy => policy.RequireRole("Admin"));
 });
 
 
@@ -126,13 +128,14 @@ builder.Services.AddAuthentication(x =>
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddTransient(typeof(IService<>), typeof(Service<>));
 builder.Services.AddTransient(typeof(IUserTypeService), typeof(UserTypeService));
-builder.Services.AddTransient(typeof(IUserService), typeof(UserService));
+builder.Services.AddTransient(typeof(IUserService<User>), typeof(UserService));
 builder.Services.AddTransient(typeof(IReportService), typeof(ReportService));
 builder.Services.AddTransient(typeof(IBreakService), typeof(BreakService));
 builder.Services.AddTransient(typeof(IAttendenceService), typeof(AttendenceService));
 builder.Services.AddTransient(typeof(ILeaveService), typeof(LeaveService));
 builder.Services.AddTransient(typeof(IClockOutService), typeof(ClockOutService));
 builder.Services.AddTransient(typeof(IFinishBreakService), typeof(FinishBreakService));
+builder.Services.AddTransient(typeof(IEventService), typeof(EventService));
 builder.Services.AddTransient<IJWTAuthManager, JWTAuthManager>();
 
 builder.Services.AddAutoMapper(typeof(StartupBase));

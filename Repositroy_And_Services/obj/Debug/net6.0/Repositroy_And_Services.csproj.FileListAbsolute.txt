@@ -49,3 +49,21 @@ C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.pdb
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.genruntimeconfig.cache
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\ref\Repositroy_And_Services.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Repositroy_And_Services.deps.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Repositroy_And_Services.runtimeconfig.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Repositroy_And_Services.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Repositroy_And_Services.pdb
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Domain.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\bin\Debug\net6.0\Domain.pdb
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.csproj.AssemblyReference.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.AssemblyInfoInputs.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.AssemblyInfo.cs
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.csproj.CoreCompileInputs.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.sourcelink.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.csproj.CopyComplete
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\refint\Repositroy_And_Services.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.pdb
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\Repositroy_And_Services.genruntimeconfig.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Repositroy_And_Services\obj\Debug\net6.0\ref\Repositroy_And_Services.dll

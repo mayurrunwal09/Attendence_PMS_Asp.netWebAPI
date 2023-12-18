@@ -34,24 +34,59 @@ namespace WebAPI.Controllers
             _authManager = authManager;
         }
 
+        /* [HttpPost("Register")]
+         public async Task<IActionResult> Register(InsertUser userModel)
+         {
+             try
+             {
+
+                 var newUser = new User
+                 {
+                     UserName = userModel.UserName,
+                     Password = Encryptor.EncryptString(userModel.Password),
+                     Email = userModel.Email,
+                     MobileNo = userModel.MobileNo ,
+                     City  = userModel.City ,
+                     UserTypeId = userModel.UserTypeId,
+                     Role = userModel.Role,
+
+                 };
+
+
+                 await Task.Run(() => _userService.Insert(newUser));
+
+                 return Ok("Registration successful");
+             }
+             catch (Exception ex)
+             {
+                 _logger.LogError($"Error during user registration: {ex.Message}");
+                 return StatusCode(500, "Internal server error");
+             }
+         }*/
+
+
         [HttpPost("Register")]
         public async Task<IActionResult> Register(InsertUser userModel)
         {
             try
             {
+                // Check if the username already exists
+                var existingUser = await _userService.Find(u => u.UserName == userModel.UserName);
+                if (existingUser != null)
+                {
+                    return BadRequest("Username is already taken");
+                }
 
                 var newUser = new User
                 {
                     UserName = userModel.UserName,
                     Password = Encryptor.EncryptString(userModel.Password),
                     Email = userModel.Email,
-                    MobileNo = userModel.MobileNo ,
-                    City  = userModel.City ,
+                    MobileNo = userModel.MobileNo,
+                    City = userModel.City,
                     UserTypeId = userModel.UserTypeId,
                     Role = userModel.Role,
-
                 };
-
 
                 await Task.Run(() => _userService.Insert(newUser));
 
@@ -63,6 +98,7 @@ namespace WebAPI.Controllers
                 return StatusCode(500, "Internal server error");
             }
         }
+
 
         [HttpPost("Login")]
         public async Task<IActionResult> Login(LoginModel loginModel)
@@ -84,7 +120,14 @@ namespace WebAPI.Controllers
                 _logger.LogError($"Error during user login: {ex.Message}");
                 return StatusCode(500, "Internal server error");
             }
+
         }
+       
+
+
+
+
+
 
     }
 

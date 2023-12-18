@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mvyQiYU8W/qeHJc8xibr/loYLywB7cYivSHLh94l8/wtmJYqEOCkPC6CiugVhXxD07VDaqg1HQhBXKBTu7zf9Q==",
+  "dgSpecHash": "BxDVQmD38pTi8ds85RXSM3ztclAAYcF8EGrXrj9xaxBe/VskqPzwAEoCTbKYKvnjK+oHANRT0SLMfh6+2vQkkg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TGSUser070\\Desktop\\Attendernce_Management (1)\\Attendernce_Management (1)\\Attendernce_Management\\Domain\\Domain.csproj",
+  "projectFilePath": "D:\\Cdrive User\\ASP.NET CORE WEB API\\Attendernce_Management\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TGSUser070\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\TGSUser070\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

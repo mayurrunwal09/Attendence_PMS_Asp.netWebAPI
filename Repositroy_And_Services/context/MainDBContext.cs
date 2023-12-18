@@ -20,8 +20,9 @@ namespace Repositroy_And_Services.context
         public DbSet<Attendence> Attenants { get; set; }
         public DbSet<ClockOut> ClockOuts { get; set; }
         public DbSet<FinishBreak> FinishBreaks { get; set; }
-
-      
+        public DbSet<Sessions> Sessions { get; set; }
+        public DbSet<Event> Events { get; set; }  
+        public DbSet<ManualRequest> ManualRequests { get; set; }
 
 
         public async Task<ICollection<Attendence>> GetAttendanceDetails(int userId)
@@ -106,7 +107,18 @@ namespace Repositroy_And_Services.context
            .HasForeignKey(r => r.FinishBreakId)
            .OnDelete(DeleteBehavior.Restrict);
 
-           
+            modelBuilder.Entity<Sessions>()
+           .HasOne(r => r.User)
+           .WithMany(d => d.Sessions)
+           .HasForeignKey(r => r.UserId)
+           .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<ManualRequest>()
+                .HasOne(d=>d.User)
+                .WithMany(d=>d.ManualRequests)
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
         }
 
 

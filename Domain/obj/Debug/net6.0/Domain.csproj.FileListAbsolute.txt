@@ -40,3 +40,18 @@ C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
 C:\Users\TGSUser070\Desktop\Attendernce_Management (1)\Attendernce_Management (1)\Attendernce_Management\Domain\obj\Debug\net6.0\ref\Domain.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.deps.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\bin\Debug\net6.0\Domain.pdb
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\refint\Domain.dll
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.pdb
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+D:\Cdrive User\ASP.NET CORE WEB API\Attendernce_Management\Domain\obj\Debug\net6.0\ref\Domain.dll

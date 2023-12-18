@@ -12,6 +12,7 @@ namespace Domain.ViewModels
     {
         public int Id { get; set; }
         public int UserId { get; set; }
+         public string UserName { get; set; }
         public string LeaveType { get; set; }
         public DateTime StartLeaveDate { get; set; }
         public DateTime EndLeaveDate { get; set; }
@@ -20,6 +21,7 @@ namespace Domain.ViewModels
         public string Reason { get; set; }
       
         public string ApprovalStatus { get; set; }
+        public User Users { get; set; }
     }
     public class InsertLeave
     {
@@ -27,8 +29,7 @@ namespace Domain.ViewModels
         public string LeaveType { get; set; }
         public DateTime StartLeaveDate { get; set; }
         public DateTime EndLeaveDate { get; set; }
-        public DateTime RequestTime { get; set; }
-        public DateTime? ApprovalTime { get; set; }
+   
         public string Reason { get; set; }
         public bool IsApproved { get; set; }
         public bool IsRejected { get; set; }

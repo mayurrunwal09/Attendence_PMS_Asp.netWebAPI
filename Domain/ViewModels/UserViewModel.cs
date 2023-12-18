@@ -18,6 +18,7 @@ namespace Domain.ViewModels
         public string Password { get; set; }
         public int UserTypeId { get; set; }
         public string Role { get; set; }
+        public string TypeName { get; set; }
 
     }
     public class InsertUser
@@ -43,5 +44,15 @@ namespace Domain.ViewModels
 
        
         public string Password { get; set; }
+    }
+    public class ResetPasswordModel
+    {
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public string NewPassword { get; set; }
     }
 }

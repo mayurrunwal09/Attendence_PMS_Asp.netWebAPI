@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "YwFYOeIN3suiYcaOM3vhsfPRQpCxZOlZx3kT/1xl4psghxOVjobqErrIQjgWOUsBy3wfbXT4P7FKt4OR4R2sjw==",
+  "dgSpecHash": "TdJ7iZwF07nBAacTjm6UyQlad/GlKZtEPYAFu99dQzTqCXZ+vTghpk96QYV9Ji42fqCPu5Byk9Pt9b6apn7e2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\TGSUser070\\Desktop\\Attendernce_Management (1)\\Attendernce_Management (1)\\Attendernce_Management\\Repositroy_And_Services\\Repositroy_And_Services.csproj",
+  "projectFilePath": "D:\\Cdrive User\\ASP.NET CORE WEB API\\Attendernce_Management\\Repositroy_And_Services\\Repositroy_And_Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\TGSUser070\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\TGSUser070\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\TGSUser070\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\TGSUser070\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\TGSUser070\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\TGSUser070\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

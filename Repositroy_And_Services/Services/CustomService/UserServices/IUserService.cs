@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Repositroy_And_Services.Services.CustomService.UserServices
 {
-    public  interface IUserService
+    public  interface IUserService<User>
     {
         Task<ICollection<UserViewModel>> GetAll();
         Task<UserViewModel> GetById(int id);
@@ -19,5 +19,6 @@ namespace Repositroy_And_Services.Services.CustomService.UserServices
         Task<bool> Update(UpdateUser StudentUpdateModel);
         Task<bool> Delete(int id);
         Task<User> Find(Expression<Func<User, bool>> match);
+        Task<bool> ResetPassword(string email, string newPassword);
     }
 }

@@ -85,6 +85,26 @@ namespace Repositroy_And_Services.Migrations
                     b.ToTable("ClockOuts");
                 });
 
+            modelBuilder.Entity("Domain.Models.Event", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("DateOfEvent")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EventName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Events");
+                });
+
             modelBuilder.Entity("Domain.Models.FinishBreak", b =>
                 {
                     b.Property<int>("Id")
@@ -158,6 +178,42 @@ namespace Repositroy_And_Services.Migrations
                     b.ToTable("Leaves");
                 });
 
+            modelBuilder.Entity("Domain.Models.ManualRequest", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("AttendenceType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ClockInTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ClockOutTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EmployeeRemart")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ManualRequests");
+                });
+
             modelBuilder.Entity("Domain.Models.Report", b =>
                 {
                     b.Property<int>("Id")
@@ -204,6 +260,39 @@ namespace Repositroy_And_Services.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("Reports");
+                });
+
+            modelBuilder.Entity("Domain.Models.Sessions", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("EventDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("EventName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EventType")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("MentorName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Sessions");
                 });
 
             modelBuilder.Entity("Domain.Models.User", b =>
@@ -324,6 +413,17 @@ namespace Repositroy_And_Services.Migrations
                     b.Navigation("Users");
                 });
 
+            modelBuilder.Entity("Domain.Models.ManualRequest", b =>
+                {
+                    b.HasOne("Domain.Models.User", "User")
+                        .WithMany("ManualRequests")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Domain.Models.Report", b =>
                 {
                     b.HasOne("Domain.Models.Attendence", "Attendence")
@@ -383,6 +483,17 @@ namespace Repositroy_And_Services.Migrations
                     b.Navigation("finishBreak");
                 });
 
+            modelBuilder.Entity("Domain.Models.Sessions", b =>
+                {
+                    b.HasOne("Domain.Models.User", "User")
+                        .WithMany("Sessions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Domain.Models.User", b =>
                 {
                     b.HasOne("Domain.Models.UserType", "UserType")
@@ -428,7 +539,11 @@ namespace Repositroy_And_Services.Migrations
 
                     b.Navigation("Leaves");
 
+                    b.Navigation("ManualRequests");
+
                     b.Navigation("Reports");
+
+                    b.Navigation("Sessions");
                 });
 
             modelBuilder.Entity("Domain.Models.UserType", b =>

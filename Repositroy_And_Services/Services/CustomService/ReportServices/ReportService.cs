@@ -23,7 +23,7 @@ namespace Repositroy_And_Services.Services.CustomService.ReportServices
         {
             if (id != null)
             {
-                Report student = await  _repository.GetById(id);
+                Report student = await _repository.GetById(id);
                 if (student != null)
                 {
                     return await _repository.Delete(student);

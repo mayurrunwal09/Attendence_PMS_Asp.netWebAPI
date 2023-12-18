@@ -26,7 +26,8 @@ namespace Domain.Models
         public ICollection<Break> Breaks { get; set; }
         public ICollection<FinishBreak> FinishBreaks { get; set; }
         public ICollection<Report> Reports { get; set; }
-     
+        public ICollection<Sessions> Sessions { get; set; }
+        public ICollection<ManualRequest> ManualRequests { get; set; }
 
     }
 }

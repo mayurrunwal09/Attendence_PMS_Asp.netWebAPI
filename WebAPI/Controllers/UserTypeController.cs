@@ -8,7 +8,7 @@ namespace WebAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
+   // [Authorize]
     public class UserTypeController : ControllerBase
     {
         private readonly IUserTypeService _customerService;

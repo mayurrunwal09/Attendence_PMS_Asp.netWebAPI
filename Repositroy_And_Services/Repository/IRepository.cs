@@ -13,6 +13,8 @@ namespace Repositroy_And_Services.Repository
     {
 
         Task<ICollection<T>> GetAll();
+        Task<IQueryable<Leave>> GetAllLeaves();
+        Task<IQueryable<User>> GetAllUserList();
         Task<T> GetById(int id);
         Task<T> GetByName(string name);
         T GetLast();
@@ -24,6 +26,7 @@ namespace Repositroy_And_Services.Repository
 
     
         Task<List<Attendence>> GetAttendanceDetails(int userId);
+       
 
 
 
