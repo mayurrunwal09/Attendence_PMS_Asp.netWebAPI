@@ -66,4 +66,19 @@ Run migrations to create the database using dotnet ef database update.
 Launch the application using dotnet run.
 Access the Swagger UI at /swagger for API documentation.
 
+## Project Layer
+Project is build in Asp.Net core WebAPI using onion architecture which contain 3 main layer Domain,Infrastrure And WebAPI layer.
+### Domain Layer
+     -The Domain Layer contain all the models of project.
+### Infrastructure Layer
+      -The Infrastructure layer contain Repository and Services.
+      -In this layer DBContext class conatin all the relationship between the all the modules.
+      -In this layer there is services layer for Generic Service and Custom Services for all modules.
+
+### WebAPI Layer
+        -The Web API layer contains Controllers,Program.cs file and Middleware like JWT Authentication.
+        -The program.cs files contains all the dependency injection and middleware of project.
+
+
+
 
