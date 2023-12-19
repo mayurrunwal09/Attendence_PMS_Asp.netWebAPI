@@ -7,6 +7,7 @@ The Attendance Management System (PMS) is a comprehensive web application develo
 Modular Structure: The project is organized into various modules, including Attendence, Break, Clockout, Event, Finish Break, Leave, ManualRequest, Report, Session, User, and UserType.
 
 Service Layer: Each module has dedicated services with corresponding interfaces. This separation allows for easy scalability, maintenance, and unit testing.
+Authentication and Authorization using JWT token.
 
 ## Project Structure
 The project is structured as follows:
