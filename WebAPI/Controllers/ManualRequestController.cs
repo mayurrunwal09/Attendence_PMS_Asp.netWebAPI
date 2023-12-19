@@ -1,15 +1,6 @@
-﻿
-
-
-
-
-
-
-
-
-
-using Domain.Models;
+﻿using Domain.Models;
 using Domain.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -31,7 +22,7 @@ namespace WebAPI.Controllers
 
 
         [HttpPost("InsertManualRequest")]
-        public IActionResult InsertManualRequest([FromBody] InsertManualRequestViewModel requestModel)
+        public IActionResult InsertManualRequest( InsertManualRequestViewModel requestModel)
         {
             try
             {
@@ -65,6 +56,7 @@ namespace WebAPI.Controllers
 
         [Route("GetManualRequestByUserId")]
         [HttpGet]
+       // [Authorize]
         public IActionResult GetManualRequestByUserId(int userId)
         {
             try
@@ -97,6 +89,7 @@ namespace WebAPI.Controllers
 
 
         [HttpGet("GetAllManualRequests")]
+       // [Authorize(Roles = "Admin")]
         public IActionResult GetAllManualRequests()
         {
             try
@@ -126,8 +119,8 @@ namespace WebAPI.Controllers
             }
         }
 
-
-        [HttpPut("UpdateManualRequestStatus")]
+        [Route("UpdateManualRequestStatus")] //Update status using manualrequestid
+        [HttpPut]
         public IActionResult UpdateManualRequestStatus([FromQuery] int manualRequestId, [FromBody] UpdateStatusModel updateModel)
         {
             try
@@ -154,5 +147,7 @@ namespace WebAPI.Controllers
         {
             public string NewStatus { get; set; }
         }
+
     }
 }
+

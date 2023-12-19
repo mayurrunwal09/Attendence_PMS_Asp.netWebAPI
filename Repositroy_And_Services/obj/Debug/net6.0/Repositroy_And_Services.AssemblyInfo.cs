@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Repositroy_And_Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b61fb7e5bd1b980d209d3f58b8a0aaf5dac1b58a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4a5a29e66ecd67c8dab50702eed85f450e317e97")]
 [assembly: System.Reflection.AssemblyProductAttribute("Repositroy_And_Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Repositroy_And_Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
