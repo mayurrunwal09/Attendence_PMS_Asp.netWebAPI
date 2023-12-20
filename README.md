@@ -1,6 +1,6 @@
 
 # Attendance Management System (PMS) - ASP.NET Core Web API
-## UI of Project in React
+## UI(Front End) of Project in React
 https://github.com/mayurrunwal09/Attendence_PMS_In_React.git
 
 ## Overview
